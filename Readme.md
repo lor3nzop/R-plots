@@ -6,7 +6,7 @@ Visualization of differentially expressed genes between two categories, accordin
 
 ### Import data
 ```{r }
-## Import differentially expressed genes (DEGs) analysis
+## Import differentially expressed genes (DEGs) analysis -> "Limma_DEGs.txt" file
 df = read.table("Limma_DEGs.txt", header=T, sep="\t", na.strings = "NA", dec=".")
 ```
 
